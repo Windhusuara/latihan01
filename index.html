@@ -6,6 +6,30 @@
   <title>For you</title>
   <link href='/style.css' rel='stylesheet'>
   <style>
+    label{font-size:14px;font-weight:bold;}
+input[type=text],input[type=number],input[type=date],input[type=time],input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 5px;
+  margin:8px 0;
+  color:rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+input[type=checkbox],input[type=radio]{
+  outline:1px solid #c8c8c8
+}
+select{
+  width: 100%;
+  padding:12px 20px;
+  border-radius: 5px;
+  margin:8px 0;
+  color:rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+
+}
+
     h2{color:rgb(0, 0, 0);text-shadow: 4px 2px 2px;}
    h1{color:bisque;font-size: 60px; text-shadow: 6px 2px 2px #c8c8c8;}
   h3{color:rgb(119, 49, 49);
@@ -73,6 +97,34 @@ body{
   
     </table>
   </p>
+  <form>
+<label>form text</label>
+<input type="text"name="txalamat"value="XXX"id="txalamat"class="txalamat">
+<label>form number</label>
+<input type="number">
+<label>form tgl</label>
+<input type="date">
+<label>form Waktu</label>
+<input type="time">
+<label>form Pilihan</label>
+<input type="radio" name="jnsk">Laki laki
+<input type="radio" name="jnsk">Perempuan
+<br>
+<input type="checkbox">sepak bola
+<input type="checkbox">basket
+<input type="checkbox">silat
+<br>
+<label>Form Pilihan</label>
+<select>
+  <option disabled selected> silahkan pilih warna</option>
+  <option>merah</option>
+  <option>biru</option>
+  <option>hijau</option>
+</select>
+<label>form Password</label>
+<input type="password"name="txPASS">
+<input type="submit"value="TOMBOL">
+  </form>
   <h1>Hallo Perkenalkan</h1>
   <h2>Saya Made Gede Pasek Windhusuara</h2>
   <h3>Falkultas:Teknik Informaktika</h3>
@@ -84,3 +136,4 @@ body{
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
 </html>
+
